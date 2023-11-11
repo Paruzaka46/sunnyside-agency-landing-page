@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.panah {
+  fill: pink !important;
+  background-color: purple;
+}
