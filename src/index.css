@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ul li svg path:hover {
+    fill: pink !important;
+} */

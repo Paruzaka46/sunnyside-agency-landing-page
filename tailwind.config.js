@@ -23,9 +23,11 @@ export default {
       },
       colors: {
         'soft-red': 'hsl(7, 99%, 70%)',
+        'my-yellow': 'hsl(51, 100%, 49%)',
         'graphic-design': 'hsl(167, 40%, 24%)',
         'photography': 'hsl(198, 62%, 26%)',
         'footer': 'hsl(168, 34%, 41%)',
+        'footer-bg': 'hsl(168, 53%, 61%)',
         'vddes-blue': 'hsl(212, 27%, 19%)',
         'vdg-blue': 'hsl(213, 9%, 39%)',
         'dg-blue': 'hsl(232, 10%, 55%)',
