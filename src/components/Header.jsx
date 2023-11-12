@@ -3,7 +3,7 @@ import {useMediaQuery} from 'react-responsive'
 
 const Header = () => {
     const [handleClick, setHandleClick] = useState(false)
-    const desktop = useMediaQuery({query: '(min-width: 640px'})
+    const desktop = useMediaQuery({query: '(min-width: 768px'})
     
     const desktopNav = <div>
         <ul className='flex items-center gap-9 text-sm font-barlow text-white'>
@@ -26,7 +26,7 @@ const Header = () => {
     </div>
 
     return (
-        <div className="md:bg-desktop bg-contain bg-no-repeat w-[100%] h-0 pb-[55.56%] sm:pb-[143.47%] mobile:bg-mobile mobile:pb-[143.47%]">
+        <div className="md:bg-desktop bg-contain bg-no-repeat w-[100%] h-0 md:pb-[55.56%] mobile:bg-mobile mobile:pb-[143.47%]">
             <nav className="mb-12 flex justify-between items-center p-5 py-5">
                 <img className="md:h-5 mobile:h-6" src="/images/logo.svg"/>
                 <div>
@@ -41,7 +41,5 @@ const Header = () => {
         </div>
     )
 }
-
-// {desktop?"bg-desktop bg-contain bg-no-repeat w-[100%] h-0 pb-[55.56%]":"bg-mobile bg-contain bg-no-repeat w-[100%] h-0 pb-[143.47%]"}
 
 export default Header

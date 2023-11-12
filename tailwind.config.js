@@ -8,7 +8,11 @@ export default {
     extend: {
       backgroundImage: {
         'desktop': "url('/images/desktop/image-header.jpg')",
-        'mobile': "url('/images/mobile/image-header.jpg')"
+        'mobile': "url('/images/mobile/image-header.jpg')",
+        'ph-desktop': "url('/images/desktop/image-photography.jpg')",
+        'ph-mobile': "url('/images/mobile/image-photography.jpg')",
+        'gh-desktop': "url('/images/desktop/image-graphic-design.jpg')",
+        'gh-mobile': "url('/images/mobile/image-graphic-design.jpg')"
       },
       fontFamily: {
         'barlow': ['Barlow', 'sans-serif'],
